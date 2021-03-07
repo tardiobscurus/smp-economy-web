@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMP Economy | help page</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- <div class="index">
+        <a href="#economy">ECONOMY</a>
+        <a href="#new"><code>.new</code></a>
+        <a href="#bal"><code>.bal</code></a>
+        <a href="#give"><code>.give</code></a>
+        <a href="#market">MARKET</a>
+        <a href="#economists">FOR ECONOMISTS</a>
+        <a href="#add"><code>.add</code></a>
+        <a href="#remove"><code>.remove</code></a>
+        <a href="#del"><code>.del</code></a>
+    </div> -->
+    <div class="main">
+
+        <!-- ------------------------------------------------ -->
+
+        <h1>SMP ECONOMY HELP PAGE</h1>
+        <p>
+            Help page of the SMP Economy bot in <code>Secret Family</code>. <br>
+            The username <code>obscurus2808</code> and <code>"Revanant Kingz"</code> will be used to demonstrate both one word and multiple word usernames when calling for differnet commands. 
+        </p>
+
+        <h2 id="economy">ECONOMY</h2>
+
+        <p>
+            Simple commands used to add, look, and create an account.
+        </p>
+
+        <style>
+            table {
+                margin: 10px 0;
+            }
+
+            .tg-0lax {
+                outline: 1px #2F3237 solid;
+                padding: 10px
+            }
+        </style>
+
+        <table class="tg" style="outline: 2px solid #2F3237;">
+            <thead>
+              <tr>
+                <th class="tg-0lax" style="text-align: left;">
+                    code
+                </th>
+                <th class="tg-0lax" style="text-align: left;">
+                    definition
+                </th>
+                <th class="tg-0lax" style="text-align: left;">
+                    example
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tg-0lax" style="width: 20%" id="new">
+                        <code>.new</code>
+                    </td>
+                    <td class="tg-0lax" style="width: 45%">
+                        Creates a new account. It will prompt you for your Minecraft (XBox-Live Account Username) for our database. <br><br>
+                        <b>KEEP IN MIND</b>: The username will <b>always</b> be case-sensitive (capital letters matters) so be warned!
+                    </td>
+                    <td class="tg-0lax">
+                        <a href="images/ex1.png" target="_blank">Link to image if what it will look like.</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax" id="bal">
+                        <code>.bal &#60;player&#62;</code>
+                    </td>
+                    <td class="tg-0lax" style="width: 45%">
+                        Checks the <code>&#60;players&#62;</code> balance. Pretty self-explanitory.
+                    </td>
+                    <td class="tg-0lax">
+                        <code>.bal obscurus2808</code>, <br>
+                        <code>.bal "Revanant Kingz"</code> <br>
+                        The one with more than two words <b>must</b> have double-qoutes.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax"id="give">
+                        <code>.give &#60;player1&#62; &#60;player2&#62;</code>
+                    </td>
+                    <td class="tg-0lax" style="width: 45%">
+                        Where <code>&#60;player1&#62;</code> (you) will give to <code>&#60;player2&#62;</code> an amount of money to given. If <code>&#60;player1&#62;</code> doesn't have the money needed to give, it will automatically cancel the transaction.
+                    </td>
+                    <td class="tg-0lax">
+                        <code>.give obscurus2808 "Revanant Kingz" 40</code>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- ------------------------------------------------ -->
+
+        <h2 id="market">MARKET</h2>
+        <p>
+            Special feature for owners and costumers to manage and view; stocks, price, shop specialty, etc. <br>
+            <b>Feature will be coming soon so hold you horses about this info.</b>
+        </p>
+
+        <!-- ------------------------------------------------ -->
+        
+        <h2 id="economists">FOR ECONOMISTS</h2>
+
+        <p>These are special commands for people who have the "Economist" role on the server. Reason for it to not make the prices inflated and making the prices super expensive for no reason becuase of someone having overpowered commands.</p>
+
+        <!--
+
+        <p id="remove">
+            <code>.remove &#60;player&#62; &#60;amount&#62;</code> <br>
+            Will instantly remove whatever <code>&#60;amount&#62;</code> the <code>&#60;player&#62;</code> will have.
+            <br><br>
+            Example: <br>
+            <code>.remove "Revanant Kingz" 1000</code>
+        </p>
+
+        <p id="del">
+            <code>.del &#60;player&#62;</code> <br>
+            Will instantly delete the <code>&#60;player&#62;</code> from our database. There will be a small warning and will <b>not</b> be reverted. 
+            <br><br>
+            Example: <br>
+            <code>.add "Revanant Kingz" 400</code>
+        </p> -->
+
+        <table class="tg" style="outline: 2px solid #2F3237;">
+            <thead>
+              <tr>
+                <th class="tg-0lax" style="text-align: left;">
+                    code
+                </th>
+                <th class="tg-0lax" style="text-align: left;">
+                    definition
+                </th>
+                <th class="tg-0lax" style="text-align: left;">
+                    example
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tg-0lax" style="width: 20%" id="add">
+                        <code>.add &#60;player&#62; &#60;amount&#62;</code>
+                    </td>
+                    <td class="tg-0lax" style="width: 45%">
+                        Will instantly add whatever <code>&#60;amount&#62;</code> the <code>&#60;player&#62;</code> will have.
+                    </td>
+                    <td class="tg-0lax">
+                        <code>.add "Revanant Kingz" 400</code>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tg-0lax" id="remove">
+                        <code>.remove &#60;player&#62; &#60;amount&#62;</code>
+                    </td>
+                    <td class="tg-0lax" style="width: 45%">
+                        Will instantly remove whatever <code>&#60;amount&#62;</code> the <code>&#60;player&#62;</code> will have.
+                    </td>
+                    <td class="tg-0lax">
+                        <code>.remove "Revanant Kingz" 1000</code>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tg-0lax"id="give">
+                        <code>.del &#60;player&#62;</code>
+                    </td>
+                    <td class="tg-0lax" style="width: 45%">
+                        Will instantly delete the <code>&#60;player&#62;</code> from our database. There will be a small warning and will <b>not</b> be reverted. 
+                    </td>
+                    <td class="tg-0lax">
+                        <code>.del obscurus2808</code>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>
